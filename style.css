@@ -382,6 +382,20 @@ img {
     color: var(--gold-500);
 }
 
+.hero__subtitle {
+    font-family: var(--font-sans);
+    font-size: clamp(1rem, 2vw, 1.25rem);
+    color: var(--gray-400);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+
+.hero__subtitle-accent {
+    color: var(--gold-500);
+}
+
 .hero__line {
     width: 60px;
     height: 2px;
