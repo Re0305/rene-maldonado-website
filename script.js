@@ -280,16 +280,20 @@ if (contactForm) {
     contactForm.addEventListener('submit', (e) => {
         e.preventDefault();
 
-        // Get form data
-        const formData = new FormData(contactForm);
+        const name = document.getElementById('form_name').value;
+        const email = document.getElementById('form_email').value;
+        const message = document.getElementById('form_message').value;
 
-        // Here you would typically send the form data to a server
-        // For now, we'll just show an alert
-        const message = currentLang === 'es'
-            ? '¡Gracias por tu mensaje! Te contactaré pronto.'
-            : 'Thank you for your message! I will contact you soon.';
+        // WhatsApp configuration
+        const phoneNumber = '525544479168';
+        const text = `Hola René, soy *${name}*. Mi correo es ${email}. Me interesa: ${message}`;
+        const encodedText = encodeURIComponent(text);
+        const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedText}`;
 
-        alert(message);
+        // Open WhatsApp
+        window.open(whatsappUrl, '_blank');
+
+        // Optional: Reset form
         contactForm.reset();
     });
 }
