@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Completo -->
+    <title>René Maldonado Reyes | Senior Legal Counsel & Real Estate Strategist | Ciudad de México</title>
+    <meta name="description"
+        content="Abogado corporativo con +23 años de experiencia en Real Estate, M&A y estructuración de fideicomisos. +$1,500 MMDD en transacciones. Ciudad de México.">
+    <meta name="keywords"
+        content="abogado corporativo CDMX, real estate lawyer Mexico, legal counsel Mexico City, abogado inmobiliario, M&A México">
+    <meta name="author" content="René Maldonado Reyes">
+
+    <!-- GEO Tags -->
+    <meta name="geo.region" content="MX-CMX">
+    <meta name="geo.placename" content="Ciudad de México, CDMX">
+    <meta name="geo.position" content="19.4326;-99.1332">
+    <meta name="ICBM" content="19.4326, -99.1332">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="René Maldonado Reyes | Senior Legal Counsel">
+    <meta property="og:description"
+        content="Abogado corporativo especializado en Real Estate y M&A. +23 años de experiencia.">
+    <meta property="og:image" content="https://rene-maldonado.pages.dev/assets/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:url" content="https://rene-maldonado.pages.dev">
+    <meta property="og:type" content="profile">
+    <meta property="og:locale" content="es_MX">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="René Maldonado Reyes | Senior Legal Counsel">
+    <meta name="twitter:description" content="Abogado corporativo especializado en Real Estate y M&A.">
+    <meta name="twitter:image" content="https://rene-maldonado.pages.dev/assets/og-image.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "René Maldonado Reyes",
+        "jobTitle": "Senior Legal Counsel & Real Estate Strategist",
+        "description": "Abogado corporativo con más de 23 años de experiencia en derecho inmobiliario, M&A y estructuración de fideicomisos.",
+        "url": "https://rene-maldonado.pages.dev",
+        "email": "contacto@renueva.com.mx",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Ciudad de México",
+            "addressRegion": "CDMX",
+            "addressCountry": "MX"
+        },
+        "alumniOf": [
+            {"@type": "EducationalOrganization", "name": "Universidad Iberoamericana"},
+            {"@type": "EducationalOrganization", "name": "IPADE Business School"},
+            {"@type": "EducationalOrganization", "name": "CEU Madrid"}
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Renueva Integradora"
+        },
+        "knowsAbout": ["Real Estate Law", "M&A", "Corporate Governance", "Fideicomisos", "FIBRAs"]
+    }
+    </script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Remix Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="nav__container">
+            <a href="#" class="nav__logo">
+                <span class="nav__logo-r">R</span>MR
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li><a href="#perfil" class="nav__link" data-i18n="nav_perfil">Perfil</a></li>
+                    <li><a href="#trayectoria" class="nav__link" data-i18n="nav_trayectoria">Trayectoria</a></li>
+                    <li><a href="#servicios" class="nav__link" data-i18n="nav_servicios">Servicios</a></li>
+                    <li><a href="#contacto" class="nav__link" data-i18n="nav_contacto">Contacto</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__actions">
+                <!-- Language Switch -->
+                <div class="lang-switch">
+                    <button onclick="setLanguage('es')" id="btn-es" class="lang-btn active">ES</button>
+                    <span class="lang-divider">|</span>
+                    <button onclick="setLanguage('en')" id="btn-en" class="lang-btn">EN</button>
+                </div>
+
+                <!-- CV Download -->
+                <a href="assets/CV-ReneMaldonado-ES.pdf" id="cv-download" class="nav__cv" title="Descargar CV" download>
+                    <i class="ri-file-download-line"></i>
+                </a>
+
+                <!-- Mobile Toggle -->
+                <button class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="hero">
+        <div class="hero__bg">
+            <div class="hero__overlay"></div>
+        </div>
+
+        <div class="hero__content">
+            <p class="hero__overline animate-fade-up" data-i18n="hero_overline">Legal Excellence & Strategic Counsel</p>
+
+            <h1 class="hero__title animate-fade-up delay-1">
+                <span data-i18n="hero_title_1">Senior Legal Advisor</span>
+                <br>
+                <span class="hero__title-accent" data-i18n="hero_title_2">& Real Estate Expert</span>
+            </h1>
+
+            <div class="hero__line animate-fade-up delay-2"></div>
+
+            <p class="hero__description animate-fade-up delay-3" data-i18n="hero_desc">
+                Bridging legal security with high-stakes profitability.
+                <br>Overseeing $1.5B+ in strategic global transactions.
+            </p>
+
+            <div class="hero__scroll-indicator animate-fade-up delay-5">
+                <div class="mouse"></div>
+                <span data-i18n="scroll_explore">Explorar</span>
+            </div>
+
+            <div class="hero__stats animate-fade-up delay-4">
+                <div class="hero__stat">
+                    <span class="hero__stat-number">23+</span>
+                    <span class="hero__stat-label" data-i18n="stat_years">Años de Experiencia</span>
+                </div>
+                <div class="hero__stat-divider"></div>
+                <div class="hero__stat">
+                    <span class="hero__stat-number">$1.5B</span>
+                    <span class="hero__stat-label" data-i18n="stat_transactions">USD en Transacciones</span>
+                </div>
+                <div class="hero__stat-divider"></div>
+                <div class="hero__stat">
+                    <span class="hero__stat-number">100+</span>
+                    <span class="hero__stat-label" data-i18n="stat_projects">Proyectos Cerrados</span>
+                </div>
+            </div>
+
+            <a href="#perfil" class="hero__scroll animate-fade-up delay-5">
+                <span data-i18n="hero_scroll">Conocer más</span>
+                <i class="ri-arrow-down-line"></i>
+            </a>
+        </div>
+    </header>
+
+    <!-- Credentials Bar -->
+    <section class="credentials">
+        <div class="credentials__container">
+            <p class="credentials__title" data-i18n="cred_title">Formación de Excelencia</p>
+            <div class="credentials__list">
+                <div class="credentials__item">
+                    <i class="ri-graduation-cap-line"></i>
+                    <div>
+                        <strong>Universidad Iberoamericana</strong>
+                        <span data-i18n="cred_1">Licenciatura en Derecho</span>
+                    </div>
+                </div>
+                <div class="credentials__divider"></div>
+                <div class="credentials__item">
+                    <i class="ri-briefcase-line"></i>
+                    <div>
+                        <strong>IPADE Business School</strong>
+                        <span data-i18n="cred_2">Alta Dirección</span>
+                    </div>
+                </div>
+                <div class="credentials__divider"></div>
+                <div class="credentials__item">
+                    <i class="ri-lightbulb-line"></i>
+                    <div>
+                        <strong>CEU Madrid</strong>
+                        <span data-i18n="cred_3">Legal Tech e Innovación</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Profile Section -->
+    <section class="profile" id="perfil">
+        <div class="profile__container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="profile_title">Perfil Profesional</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="profile__content">
+                <p class="profile__text profile__text--lead" data-i18n="profile_p1">
+                    Con más de dos décadas de experiencia en la intersección entre derecho, finanzas e inversión
+                    inmobiliaria, René Maldonado ha consolidado su reputación como el aliado estratégico que las
+                    empresas requieren para navegar complejidades legales sin sacrificar velocidad de negocio.
+                </p>
+
+                <p class="profile__text" data-i18n="profile_p2">
+                    Su trayectoria comenzó en GICSA, donde como Subdirector Jurídico de Financiamiento participó en
+                    financiamientos sindicados, bursatilizaciones y la adquisición de reserva territorial a nivel
+                    nacional. Posteriormente, en Avison Young, asumió el liderazgo de la división de Mercados de
+                    Capitales, estructurando vehículos de inversión para fondos extranjeros.
+                </p>
+
+                <p class="profile__text" data-i18n="profile_p3">
+                    Desde 2018, <strong>Renueva Integradora</strong> representa la culminación de su visión: un modelo
+                    de Legal Management y Counsel externo que combina gobierno corporativo, compliance y estructuración
+                    de fideicomisos, habiendo facilitado transacciones por más de $1,500 millones de dólares.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section class="timeline" id="trayectoria">
+        <div class="timeline__container">
+            <div class="section-header section-header--light">
+                <span class="section-tag" data-i18n="timeline_tag">Trayectoria</span>
+                <h2 class="section-title" data-i18n="timeline_title">Experiencia Profesional</h2>
+            </div>
+
+            <div class="timeline__track">
+                <!-- Item 1 -->
+                <div class="timeline__item">
+                    <div class="timeline__content">
+                        <span class="timeline__badge" data-i18n="current">Actual</span>
+                        <h3 class="timeline__role" data-i18n="role_1">Socio Director General</h3>
+                        <p class="timeline__company">Renueva Integradora</p>
+                        <p class="timeline__desc" data-i18n="desc_1">Legal Management y General Counsel externo.
+                            Especializado en Gobierno Corporativo, Compliance y estructuración de fideicomisos.</p>
+                    </div>
+                    <div class="timeline__dot"></div>
+                    <div class="timeline__year">2018</div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="timeline__item">
+                    <div class="timeline__content">
+                        <h3 class="timeline__role" data-i18n="role_2">Socio Principal - Capital Markets</h3>
+                        <p class="timeline__company">Avison Young</p>
+                        <p class="timeline__desc" data-i18n="desc_2">Lideró la división de Mercados de Capitales.
+                            Estructuración de vehículos de inversión para fondos extranjeros.</p>
+                    </div>
+                    <div class="timeline__dot"></div>
+                    <div class="timeline__year">2016</div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="timeline__item">
+                    <div class="timeline__content">
+                        <h3 class="timeline__role" data-i18n="role_3">Socio Fundador</h3>
+                        <p class="timeline__company">Kapitales</p>
+                        <p class="timeline__desc" data-i18n="desc_3">Consultoría financiera-legal. Levantamiento de
+                            capital semilla y mezzanine para proyectos inmobiliarios.</p>
+                    </div>
+                    <div class="timeline__dot"></div>
+                    <div class="timeline__year">2012</div>
+                </div>
+
+                <!-- Item 4 -->
+                <div class="timeline__item">
+                    <div class="timeline__content">
+                        <h3 class="timeline__role" data-i18n="role_4">Subdirector Jurídico de Financiamiento</h3>
+                        <p class="timeline__company">GICSA</p>
+                        <p class="timeline__desc" data-i18n="desc_4">Financiamientos sindicados, bursatilizaciones y
+                            adquisición de reserva territorial nacional.</p>
+                    </div>
+                    <div class="timeline__dot"></div>
+                    <div class="timeline__year">2001</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="servicios">
+        <div class="services__container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="services_title">Áreas de Práctica</h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle" data-i18n="services_subtitle">Soluciones legales estratégicas diseñadas para
+                    maximizar el valor y minimizar el riesgo.</p>
+            </div>
+
+            <div class="services__grid">
+                <div class="service-card">
+                    <div class="service-card__icon">
+                        <i class="ri-building-4-line"></i>
+                    </div>
+                    <h3 class="service-card__title" data-i18n="s1_title">Real Estate & FIBRAs</h3>
+                    <p class="service-card__desc" data-i18n="s1_desc">Estructuración integral de vehículos de inversión
+                        inmobiliaria, desde fideicomisos hasta emisiones bursátiles.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-card__icon">
+                        <i class="ri-global-line"></i>
+                    </div>
+                    <h3 class="service-card__title" data-i18n="s2_title">M&A Transfronterizo</h3>
+                    <p class="service-card__desc" data-i18n="s2_desc">Fusiones y adquisiciones internacionales, Joint
+                        Ventures y navegación regulatoria multijurisdiccional.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-card__icon">
+                        <i class="ri-lightbulb-flash-line"></i>
+                    </div>
+                    <h3 class="service-card__title" data-i18n="s3_title">Legal Design & Innovation</h3>
+                    <p class="service-card__desc" data-i18n="s3_desc">Transformación de procesos legales mediante
+                        metodologías innovadoras para maximizar eficiencia operativa.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-card__icon">
+                        <i class="ri-shield-check-line"></i>
+                    </div>
+                    <h3 class="service-card__title" data-i18n="s4_title">Gestión de Crisis</h3>
+                    <p class="service-card__desc" data-i18n="s4_desc">Intervención estratégica en situaciones complejas.
+                        Counsel externo para decisiones bajo presión.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-card__icon">
+                        <i class="ri-funds-line"></i>
+                    </div>
+                    <h3 class="service-card__title" data-i18n="s5_title">Vehículos de Inversión</h3>
+                    <p class="service-card__desc" data-i18n="s5_desc">Diseño de fideicomisos, fondos y estructuras
+                        corporativas optimizadas para protección patrimonial.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-card__icon">
+                        <i class="ri-scales-3-line"></i>
+                    </div>
+                    <h3 class="service-card__title" data-i18n="s6_title">Gobierno Corporativo</h3>
+                    <p class="service-card__desc" data-i18n="s6_desc">Implementación de marcos de gobierno y compliance
+                        que protegen y dan valor a las organizaciones.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contacto">
+        <div class="contact__container">
+            <header class="contact__header section-header">
+                <span class="section-tag" data-i18n="contact_tag">Contacto</span>
+                <h2 class="section-title" data-i18n="contact_title">Consultoría Estratégica</h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle" data-i18n="contact_subtitle">
+                    Inicie una conversación sobre su próximo movimiento estratégico.
+                </p>
+            </header>
+
+            <div class="contact__grid">
+                <div class="contact__info">
+                    <div class="contact__item">
+                        <i class="ri-mail-send-line"></i>
+                        <div>
+                            <span class="contact__label">Email</span>
+                            <a href="mailto:contacto@renueva.com.mx" class="contact__value">contacto@renueva.com.mx</a>
+                        </div>
+                    </div>
+
+                    <div class="contact__item">
+                        <i class="ri-map-pin-2-line"></i>
+                        <div>
+                            <span class="contact__label" data-i18n="loc_label">Ubicación</span>
+                            <span class="contact__value" data-i18n="loc_value">Ciudad de México, México</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__item">
+                        <i class="ri-linkedin-box-line"></i>
+                        <div>
+                            <span class="contact__label">LinkedIn</span>
+                            <a href="https://linkedin.com/in/renemaldonado" target="_blank"
+                                class="contact__value">linkedin.com/in/renemaldonado</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact__form-wrapper">
+                    <form class="contact__form" id="contact-form">
+                        <div class="contact__input-group">
+                            <input type="text" class="contact__input" placeholder="Nombre completo"
+                                data-i18n-ph="form_name" required>
+                        </div>
+                        <div class="contact__input-group">
+                            <input type="email" class="contact__input" placeholder="Correo electrónico"
+                                data-i18n-ph="form_email" required>
+                        </div>
+                        <div class="contact__input-group">
+                            <textarea class="contact__textarea" placeholder="¿Cómo puedo ayudarle?"
+                                data-i18n-ph="form_msg" required></textarea>
+                        </div>
+                        <button type="submit" class="contact__btn" data-i18n="form_btn">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__top">
+                <p class="footer__copyright">© 2024 René Maldonado Reyes. All rights reserved.</p>
+                <div class="footer__social">
+                    <a href="https://linkedin.com/in/renemaldonado" target="_blank" class="footer__social-link">
+                        <i class="ri-linkedin-fill"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer__branding">
+                <a href="https://smartizable.com" target="_blank" class="smartizable-badge">
+                    Crafted with 💜 by <span class="smartizable-badge__logo"><span
+                            class="s-initial">S</span>martizable</span>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
